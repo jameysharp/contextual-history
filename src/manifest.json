@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Contextual History",
+  "description": "Identify related pages based on your browsing history",
+  "homepage_url": "https://github.com/jameysharp/contextual-history",
+  "version": "0.0.1",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "permissions": [
+    "history",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "sidebar_action": {
+    "default_title": "Contextual History",
+    "default_panel": "sidebar/sidebar.html"
+  }
+}
